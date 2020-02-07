@@ -31,3 +31,10 @@ def Clip(text, length);
 
 - 잘라내는 것 Truncate(text, max_chars)
 
+## 경계를 포함하는 한계값을 다룰 때는min과 max를 사용하라
+
+- limit보다 max나 min
+
+## 경계를 포함하는 범위에는 first와 last를 사용하라
+
+- 
