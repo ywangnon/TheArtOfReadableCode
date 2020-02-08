@@ -37,4 +37,7 @@ def Clip(text, length);
 
 ## 경계를 포함하는 범위에는 first와 last를 사용하라
 
-- 
+
+
+## 경계를 포함/배제하는 범위에는 begin/end 사용
+
