@@ -31,13 +31,48 @@ def Clip(text, length);
 
 - 잘라내는 것 Truncate(text, max_chars)
 
-## 경계를 포함하는 한계값을 다룰 때는min과 max를 사용하라
+## 경계를 포함하는 한계값을 다룰 때는min과 max 사용
 
 - limit보다 max나 min
 
-## 경계를 포함하는 범위에는 first와 last를 사용하라
+## 경계를 포함하는 범위에는 first와 last 사용
 
 
 
 ## 경계를 포함/배제하는 범위에는 begin/end 사용
+
+
+
+## 불리언 변수에 이름 붙이기
+
+```c
+bool read_password - true; 
+```
+
+2가지로 해석됨
+
+- 패스워드를 읽을 필요가 있음
+- 패스워드가 필요함
+
+수정
+
+```c
+bool need_password = true;
+```
+
+```c
+bool user_is_authenticated = true;
+```
+
+부정적인 의미 피하기
+
+```c
+bool disable_ssl = false;
+```
+
+수정
+
+```c
+bool use_ssl = true;
+```
 
