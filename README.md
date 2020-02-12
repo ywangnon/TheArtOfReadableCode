@@ -1,2 +1,2 @@
-# TheArtofReadableCode
+# 읽기 좋은 코드가 좋은 코드다
 
