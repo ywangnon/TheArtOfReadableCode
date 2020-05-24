@@ -1,5 +1,6 @@
 import UIKit
 
+/*
 // 무엇이 코드를 '더 좋게' 만드는가?
 
 // 1
@@ -61,3 +62,12 @@ func sample2_2() -> Int {
 /*
  책이 정말 코드에서 필요한 부분만 있어서 변수를 따로 만들어야함
  */
+*/
+
+func a(s: String, t: String) -> Bool {
+    var str1 = s.map{ $0 }
+    var str2 = t.map{ $0 }
+    
+    for char
+    return true
+}
